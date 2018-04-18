@@ -261,7 +261,7 @@ id: 4102  必须
             "car_first_pay_ratio": "20.00",       //首付比例
             "car_first_pay_amount": "20000.00",   //首付车款
             "loan_amount": "80000.00",            //贷款额
-            "loan_type": "1",                     //还贷方式
+            "loan_type": "等额本息",               //还贷方式
             "loan_periods": "4",                  //期数
             "loan_rate": "5.00000000",            //年利率
             "monthly": "20208.77",                //月供
@@ -277,7 +277,7 @@ id: 4102  必须
         },
         "list_dj": {
             "loan_amount": "80000.00",            //借款额
-            "loan_type": "1",                     //还贷方式
+            "loan_type": "等额本息",               //还贷方式
             "loan_periods": "7",                  //期数
             "loan_rate": "6.00000000",            //年利率
             "monthly": "11658.28",                //月供
