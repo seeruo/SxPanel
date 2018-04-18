@@ -16,47 +16,47 @@ id: 4102  必须
         "id": "4102",
         "system_number": "ZHYW201803210001", //系统单号
         "customer_id": "8490",
-        "agency_name": "",
-        "agency_fee": "0.00",
-        "business_from": "1",
+        "agency_name": "",  //中介人       
+        "agency_fee": "0.00",  //中介费    
+        "business_from": "1",    //订单类型,1:新车,2：旧车    
         "customer_name_phone": "阿里巴巴 13948787848 (普通)",
-        "customer_card": "5107221985152312312",
-        "seller_name": "田国清",
-        "loan_common": {
-            "mortgage_status": "否",
-            "device_status": "否",
-            "contract_num": "FSDF093323",
+        "customer_card": "5107221985152312312",    //证件
+        "seller_name": "田国清",    //业务员
+        "loan_common": {
+            "mortgage_status": "否",      //抵押办理
+            "device_status": "否",    //定位设备
+            "contract_num": "FSDF093323",     //合同编号
             "bank_bill_img": [
                 "http://7xr3m7.com2.z0.glb.qiniucdn.com/1523956613233",
                 "http://7xr3m7.com2.z0.glb.qiniucdn.com/1523956618356"
-            ],
+            ],    //银行流水 
             "credit_report_img": [
                 "http://7xr3m7.com2.z0.glb.qiniucdn.com/1523956624026"
-            ],
-            "contract_img": [
+            ],    //征信报告
+            "contract_img": [
                 "http://7xr3m7.com2.z0.glb.qiniucdn.com/1523956629210",
                 "http://7xr3m7.com2.z0.glb.qiniucdn.com/1523956645576"
-            ]
+            ]    //合同
         },
         "list_cars": [
             {
                 "master_id": "4102",
                 "class_id": "1726",
                 "car_id": "8262",
-                "car_type": "库存车",
-                "car_price": "50000.00",
-                "sell_company_name": "玩儿",
-                "business_type": "按揭,保险,短借,挂靠,牌证,销售",
-                "guakao_company": "",
+                "car_type": "库存车",         //属性
+                "car_price": "50000.00",     //车价
+                "sell_company_name": "玩儿",    //车辆销售公司
+                "business_type": "按揭,保险,短借,挂靠,牌证,销售",   //业务类型
+                "guakao_company": "",    //挂靠公司信息
                 "vin": "KFKE43435353WREW4",
                 "class_str": "联合卡车 U系 重型 集装箱牵引车",
                 "data_insurance": {
                     "class_id": "1726",
-                    "use_property": "特种车",
-                    "all_fee": "1400.00",
-                    "jqx_fee": "200.00",
+                    "use_property": "特种车",    //使用性质
+                    "all_fee": "1400.00",       //保费合计
+                    "jqx_fee": "200.00",        //交强险保费
                     "jqx_brand_name": "锦泰保险",
-                    "syx_fee": "300.00",
+                    "syx_fee": "300.00",        //商业险保费
                     "syx_brand_name": "亚太财险",
                     "syx_list": [
                         {
@@ -102,10 +102,10 @@ id: 4102  必须
                             "baoe": "SDFHGSD"
                         }
                     ],
-                    "ywx_fee": "400.00",
+                    "ywx_fee": "400.00",     //意外险保费
                     "ywx_brand_name": "华泰保险",
-                    "ywx_baoe": "SDGG",
-                    "ccs_fee": "500.00",
+                    "ywx_baoe": "SDGG",      //意外险保额
+                    "ccs_fee": "500.00",     //车船税
                     "ccs_brand_name": "都邦财产保险股份有限公司",
                     "class_str": "联合卡车 U系 重型 集装箱牵引车",
                     "class_vin": ""
@@ -116,10 +116,10 @@ id: 4102  必须
                     "zhengzhao": [
                         {
                             "class_id": "1726",
-                            "license_type": "行驶证",
-                            "picture_fee": "123.00",
-                            "check_fee": "24.00",
-                            "deal_fee": "12.00"
+                            "license_type": "行驶证",  //项目
+                            "picture_fee": "123.00",  //证照费
+                            "check_fee": "24.00",     //检测费
+                            "deal_fee": "12.00"       //代办费
                         },
                         {
                             "class_id": "1726",
@@ -144,22 +144,22 @@ id: 4102  必须
                         },
                         {
                             "class_id": "1726",
-                            "license_type": "购置证",
-                            "picture_fee": "1241.00",
-                            "check_fee": "41.00",
-                            "deal_fee": "24124.00"
+                            "license_type": "购置证",   //项目
+                            "picture_fee": "1241.00",  //证照费
+                            "check_fee": "41.00",      //检测费
+                            "deal_fee": "24124.00"     //代办费
                         }
                     ],
                     "total_amount": "25807.00",
-                    "xsz_fee": "159.00",
-                    "ysz_fee": "176.00",
-                    "whz_fee": "47.00",
-                    "jly_fee": "19.00",
-                    "gzz_fee": "25406.00"
+                    "xsz_fee": "159.00",   //行驶证   
+                    "ysz_fee": "176.00",   //道路运输证
+                    "whz_fee": "47.00",    //危化证
+                    "jly_fee": "19.00",    //行驶记录仪  
+                    "gzz_fee": "25406.00"  //购置证 
                 },
                 "data_linked": {
                     "class_id": "1726",
-                    "freight_type": "普通货运",
+                    "freight_type": "普通货运",    //货运类型
                     "affiliated_fee": "1000.00",
                     "start_time": "2018-04-17",
                     "pay_years": "1.00",
