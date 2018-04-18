@@ -52,11 +52,11 @@ id: 4102  必须
                 "class_str": "联合卡车 U系 重型 集装箱牵引车",
                 "data_insurance": {
                     "class_id": "1726",
-                    "use_property": "特种车",    //使用性质
-                    "all_fee": "1400.00",       //保费合计
-                    "jqx_fee": "200.00",        //交强险保费
+                    "use_property": "特种车",             //使用性质
+                    "all_fee": "1400.00",                //保费合计
+                    "jqx_fee": "200.00",                 //交强险保费
                     "jqx_brand_name": "锦泰保险",
-                    "syx_fee": "300.00",        //商业险保费
+                    "syx_fee": "300.00",                 //商业险保费
                     "syx_brand_name": "亚太财险",
                     "syx_list": [
                         {
@@ -102,10 +102,10 @@ id: 4102  必须
                             "baoe": "SDFHGSD"
                         }
                     ],
-                    "ywx_fee": "400.00",     //意外险保费
-                    "ywx_brand_name": "华泰保险",
-                    "ywx_baoe": "SDGG",      //意外险保额
-                    "ccs_fee": "500.00",     //车船税
+                    "ywx_fee": "400.00",                       //意外险保费
+                    "ywx_brand_name": "华泰保险",               //机构
+                    "ywx_baoe": "SDGG",                        //意外险保额
+                    "ccs_fee": "500.00",                       //车船税
                     "ccs_brand_name": "都邦财产保险股份有限公司",
                     "class_str": "联合卡车 U系 重型 集装箱牵引车",
                     "class_vin": ""
@@ -116,10 +116,10 @@ id: 4102  必须
                     "zhengzhao": [
                         {
                             "class_id": "1726",
-                            "license_type": "行驶证",  //项目
-                            "picture_fee": "123.00",  //证照费
-                            "check_fee": "24.00",     //检测费
-                            "deal_fee": "12.00"       //代办费
+                            "license_type": "行驶证",           //项目
+                            "picture_fee": "123.00",           //证照费
+                            "check_fee": "24.00",              //检测费
+                            "deal_fee": "12.00"                //代办费
                         },
                         {
                             "class_id": "1726",
@@ -159,20 +159,20 @@ id: 4102  必须
                 },
                 "data_linked": {
                     "class_id": "1726",
-                    "freight_type": "普通货运",    //货运类型
-                    "affiliated_fee": "1000.00",
-                    "start_time": "2018-04-17",
-                    "pay_years": "1.00",
-                    "margin": "3.00",
-                    "transfer_ownership_fee": "2.00",
-                    "change_native_fee": "2.00",
-                    "total_amount": "1003.00",
+                    "freight_type": "普通货运",             //货运类型
+                    "affiliated_fee": "1000.00",           //挂靠费
+                    "start_time": "2018-04-17",            //挂靠开始时间
+                    "pay_years": "1.00",                   //缴款年数
+                    "margin": "3.00",                      //安全保证金
+                    "transfer_ownership_fee": "2.00",      //过户费
+                    "change_native_fee": "2.00",           //转籍费
+                    "total_amount": "1003.00",             //费用合计
                     "class_str": "联合卡车 U系 重型 集装箱牵引车",
                     "class_vin": ""
                 },
                 "data_weihu": {
                     "class_id": "1729",
-                    "total_amount": "123124.00",
+                    "total_amount": "123124.00",           //二级维护费
                     "class_str": "联合卡车 U系 重型 牵引车"
                 }
             },
@@ -255,44 +255,44 @@ id: 4102  必须
             }
         ],
         "list_aj": {
-            "loan_person": "阿里巴巴",
-            "car_price": "100000.00",
-            "car_first_pay_ratio": "20.00",
-            "car_first_pay_amount": "20000.00",
-            "loan_amount": "80000.00",
-            "loan_type": "1",
-            "loan_periods": "4",
-            "loan_rate": "5.00000000",
-            "monthly": "20208.77",
-            "loan_interest": "835.08",
-            "ensure_fee": "800.00",
-            "risk_fee": "800.00",
-            "formalities_fee": "800.00",
-            "survey_fee": "100.00",
-            "notary_fee": "200.00",
-            "record_fee": "300.00",
-            "device_fee": "400.00",
-            "ensure_fee_renew": "500.00"
+            "loan_person": "阿里巴巴",             //贷款人
+            "car_price": "100000.00",             //贷款车价
+            "car_first_pay_ratio": "20.00",       //首付比例
+            "car_first_pay_amount": "20000.00",   //首付车款
+            "loan_amount": "80000.00",            //贷款额
+            "loan_type": "1",                     //还贷方式
+            "loan_periods": "4",                  //期数
+            "loan_rate": "5.00000000",            //年利率
+            "monthly": "20208.77",                //月供
+            "loan_interest": "835.08",            //利息
+            "ensure_fee": "800.00",               //保证金
+            "risk_fee": "800.00",                 //风险费
+            "formalities_fee": "800.00",          //手续费
+            "survey_fee": "100.00",               //调查费
+            "notary_fee": "200.00",               //公证费
+            "record_fee": "300.00",               //档案费
+            "device_fee": "400.00",               //定位设备费
+            "ensure_fee_renew": "500.00"          //续保保证金
         },
         "list_dj": {
-            "loan_amount": "80000.00",
-            "loan_type": "1",
-            "loan_periods": "7",
-            "loan_rate": "6.00000000",
-            "monthly": "11658.28",
-            "loan_interest": "1607.96",
-            "formalities_fee": "800.00",
-            "device_fee": "100.00",
-            "survey_fee": "200.00",
-            "notary_fee": "300.00"
+            "loan_amount": "80000.00",            //借款额
+            "loan_type": "1",                     //还贷方式
+            "loan_periods": "7",                  //期数
+            "loan_rate": "6.00000000",            //年利率
+            "monthly": "11658.28",                //月供
+            "loan_interest": "1607.96",           //利息
+            "formalities_fee": "800.00",          //手续费
+            "device_fee": "100.00",               //定位设备费
+            "survey_fee": "200.00",               //调查费
+            "notary_fee": "300.00"                //公证费
         },
         "list_xs": {
-            "sale_total_price": "100000.00",
-            "car_sale_maoli": "0",
-            "earnest": "100.00",
-            "gift_money": "20.00",
-            "sale_time": "2018-04-17",
-            "pre_connect_time": "2018-04-17"
+            "sale_total_price": "100000.00",     //合计售价
+            "car_sale_maoli": "0",               //毛利
+            "earnest": "100.00",                 //定金
+            "gift_money": "20.00",               //赠送价值
+            "sale_time": "2018-04-17",           //定车时间
+            "pre_connect_time": "2018-04-17"     //预计交车时间
         }
     }
 }
