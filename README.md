@@ -166,7 +166,11 @@
                     "class_str": "联合卡车 U系 重型 集装箱牵引车",
                     "class_vin": ""
                 },
-                "data_weihu": {}
+                "data_weihu": {
+                    "class_id": "1729",
+                    "total_amount": "123124.00",
+                    "class_str": "联合卡车 U系 重型 牵引车"
+                }
             },
             {
                 "master_id": "4102",
