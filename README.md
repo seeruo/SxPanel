@@ -1,12 +1,12 @@
-## inteface
+## Inteface
 
 > http://192.168.5.130/WORKSTATION/bug/merchantSystem/Mobile/InteServ/getDetail
 
-## params
+## Params
 id: 4102  必须
 其他公共参数
 
-## result
+## Result
 
 ``` bash
 {
@@ -14,8 +14,8 @@ id: 4102  必须
     "result_info": "获取详情成功",
     "data": {
         "id": "4102",
-        "system_number": "ZHYW201803210001",
-        "customer_id": "8490",
+        "system_number": "ZHYW201803210001", //系统单号
+        "customer_id": "8490",
         "agency_name": "",
         "agency_fee": "0.00",
         "business_from": "1",
