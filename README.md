@@ -43,11 +43,11 @@ id: 4102  必须
                 "master_id": "4102",
                 "class_id": "1726",
                 "car_id": "8262",
-                "car_type": "库存车",         //属性
-                "car_price": "50000.00",     //车价
-                "sell_company_name": "玩儿",    //车辆销售公司
+                "car_type": "库存车",                              //属性
+                "car_price": "50000.00",                          //车价
+                "sell_company_name": "玩儿",                       //车辆销售公司
                 "business_type": "按揭,保险,短借,挂靠,牌证,销售",   //业务类型
-                "guakao_company": "",    //挂靠公司信息
+                "guakao_company": "",                             //挂靠公司信息
                 "vin": "KFKE43435353WREW4",
                 "class_str": "联合卡车 U系 重型 集装箱牵引车",
                 "data_insurance": {
@@ -55,16 +55,16 @@ id: 4102  必须
                     "use_property": "特种车",             //使用性质
                     "all_fee": "1400.00",                //保费合计
                     "jqx_fee": "200.00",                 //交强险保费
-                    "jqx_brand_name": "锦泰保险",
-                    "syx_fee": "300.00",                 //商业险保费
+                    "jqx_brand_name": "锦泰保险",         //机构
+                    "syx_fee": "300.00",                 //商业险保费
                     "syx_brand_name": "亚太财险",
                     "syx_list": [
                         {
                             "class_id": "1726",
-                            "kind_id": "车损险",
-                            "isnon": "N",
-                            "fee": "50.00",
-                            "baoe": "ASD"
+                            "kind_id": "车损险",          //险种 
+                            "isnon": "N",                //不计免赔
+                            "fee": "50.00",              //保费
+                            "baoe": "ASD"                //保额
                         },
                         {
                             "class_id": "1726",
