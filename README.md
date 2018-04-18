@@ -303,7 +303,8 @@ id: 4102  必须
             "total_xs": 0,                       //销售合计
             "total_aj": 0,                       //按揭合计
             "total_dj": 0,                       //短借杂费合计
-            "total_amount_fst": "123569.00",     //首付合计
+            "total_bzj": "1307.00",              //保证金
+            "total_amount_fst": "123569.00",     //首付合计
             "total_amount": "123569.00"          //购车总价
         }
     }
