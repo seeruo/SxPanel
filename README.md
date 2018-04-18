@@ -4,6 +4,8 @@
 
 ## params
 
+## result
+
 ``` bash
 {
     "response_status": 200,
