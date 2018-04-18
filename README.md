@@ -3,6 +3,8 @@
 > http://192.168.5.130/WORKSTATION/bug/merchantSystem/Mobile/InteServ/getDetail
 
 ## params
+id: 4102  必须
+其他公共参数
 
 ## result
 
