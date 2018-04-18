@@ -293,6 +293,17 @@ id: 4102  必须
             "gift_money": "20.00",               //赠送价值
             "sale_time": "2018-04-17",           //定车时间
             "pre_connect_time": "2018-04-17"     //预计交车时间
+        },
+        "total": {
+            "total_insurance": 0,                //保费 / 续保费 合计                      
+            "total_license": 0,                  //牌证费 / 年审费 合计
+            "total_linked": "322.00",            //挂靠费 / 续挂费 合计
+            "total_weihu": "123247.00",          //二级维护费合计
+            "total_xs": 0,                       //销售合计
+            "total_aj": 0,                       //按揭合计
+            "total_dj": 0,                       //短借杂费合计
+            "total_amount_fst": "123569.00",     //首付合计
+            "total_amount": "123569.00"          //购车总价
         }
     }
 }
