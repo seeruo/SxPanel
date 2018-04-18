@@ -16,6 +16,7 @@ id: 4102  必须
         "id": "4102",
         "system_number": "ZHYW201803210001", //系统单号
         "customer_id": "8490",
+        "business_string": "按揭,保险,短借,挂靠,牌证,销售",
         "agency_name": "",  //中介人       
         "agency_fee": "0.00",  //中介费    
         "business_from": "1",    //订单类型,1:新车,2：旧车    
