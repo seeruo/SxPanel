@@ -39,7 +39,22 @@ id: 4102  必须
                 "http://7xr3m7.com2.z0.glb.qiniucdn.com/1523956645576"
             ]    //合同
         },
-        "list_cars": [
+        "break_promise": {
+            "times": 1,      //违约次数 
+            "list": [
+                {
+                    "system_number": "ZHYW201712050001",         //单号
+                    "type_name": "按揭",                         //类型
+                    "return_date": "2017-12-27",                 //约定还款日
+                    "return_money": "146460.37",                 //月供
+                    "loan_amount": "1733333.16",                 //借/贷额    
+                    "periods": "第1期",                          //期数
+                    "else_money": "0.00",
+                    "last_pay_time": "2018-03-15"               //实际还款日
+                }
+            ]
+        },  //违约信息  
+        "list_cars": [
             {
                 "master_id": "4102",
                 "class_id": "1726",
