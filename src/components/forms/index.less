@@ -1,0 +1,278 @@
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.forms-index {
+    display: flex;
+    flex-flow: column;
+    height: calc(100vh - 100px);
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.forms-index {
+    /*页面顶部*/
+    .detail-top {
+        height: 40px;
+        line-height: 40px;
+        background-color: #fff;
+        display: flex;
+        box-shadow: 0px 1px 1px #dddddd;
+        -moz-box-shadow: 0px 1px 1px #dddddd;
+    }
+    .detail-status {
+        padding-left: 20px;
+    }
+    .detail-return {
+        padding-right: 20px;
+        flex-grow: 1;
+        text-align: right;
+        line-height: 40px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    /*页面中间*/
+    .detail-content {
+        flex: 1;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    /*左侧内容*/
+    .content-left {
+        flex: 1;
+    }
+
+    /*悬浮球*/
+    .suspension-ball{
+        position: fixed;
+        display: block;
+        height: 60px;
+        width: 25px;
+        background-color: #ccc;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        cursor: pointer;
+        right: -10px;
+        top: 100px;
+        z-index: 100;
+        opacity: 0.4;
+        font-size: 16px;
+        color:#003399;
+        text-align: center;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        writing-mode: tb-rl;
+        transition: all .3s;
+    }
+    .suspension-ball:hover {
+        right: 0px;
+        font-weight: bold;
+        opacity: 1;
+        transition: all .3s;
+    }
+    /*右侧日志*/
+    .logs-list {
+        color: #9CA3A7;
+        background-color: #EFEFEF;
+        box-sizing: border-box;
+        font-size: 12px;
+        height: calc(100vh - 70px);
+        overflow: hidden;
+        overflow-x: hidden;
+    }
+    .logs-list-ul {
+        padding-left: 20px;
+        display: flex;
+        flex-flow: column;
+        li {
+            margin: 5px 0;
+            background-color: #fff;
+            border-radius: 5px;
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: column;
+            padding: 10px 15px;
+            position: relative;
+            width: calc(100% - 10px);
+        }
+    }
+    /**
+     * 日志块
+     */
+    .log-block:hover{
+        .block-column-detail{
+            display: inline-block;
+        }
+    }
+    .log-block{
+        .block-top, .block-column, .block-time {
+            flex: 1;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+        .block-top {
+            height: 40px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .block-column-detail{
+            display: none;
+            color: #FFB922;
+            cursor: pointer;
+        }
+        .block-footer div {
+            height: 40px;
+        }
+        .block-circle {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            position: absolute;
+            top: 15px;
+            left: -15px;
+        }
+        .block-line {
+            width: 1px;
+            height: 100%+10px;
+            background-color: #E7E7E7;
+            position: absolute;
+            top: 25px;
+            left: -11px;
+        }
+    }
+
+    /*日志查看详情*/
+    .log-detail {
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: #EFEFEF;
+        border: 1px solid #EFEFEF;
+        z-index: 100;
+        padding: 0 10px;
+        display: flex;
+        flex-flow: column;
+        font-size: 12px;
+        color: #9CA3A7;
+        overflow: hidden;
+        .detail-header {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            height: 80px;
+            line-height: 40px;
+            background-color:#FFFFFF;
+            padding: 0 10px;
+        }
+        .detail-header-operate {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            line-height: 30px;
+        }
+        .detail-header-operate-left span {
+            margin-right: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+        .detail-header-operate-right {
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .detail-header-time {
+            color: #999;
+            font-weight: bold;
+            line-height: 30px;
+        }
+        .detail-body {
+            flex: 1;
+            overflow: hidden;
+            background-color:#f9f9f9;
+            .update-before, .update-after {
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                padding: 0 10px;
+                span:first-child {
+                    color: #9CA3A7;
+                }
+            }
+        }
+    }
+    
+    /*日志详情动画*/
+    .log-transform-enter-active, .log-transform-leave-active {
+        transition: right .5s;
+    }
+    .log-transform-enter, .log-transform-leave-to {
+        right: 300px;
+    }
+
+
+
+
+    /*表单内容 start*/
+    /*表单头部*/
+    .form-top {
+        display: flex;
+        height: 60px;
+        font-size: 14px;
+        li {
+            flex: 1;
+            display: inline-flex;
+            flex-flow: column;
+            background-color: #FFFFFF;
+            padding: 5px 15px;
+            line-height: 22px;
+            border: 1px solid #EFEFEF;
+            border-right: 0px;
+            span {
+                align-items: center;
+                font-size: 12px;
+                line-height: 25px;
+            }
+            span:first-child{
+                color:#666666!important;
+            }
+        }
+        li:last-child{
+            border-right: 1px solid #EFEFEF;
+        }
+    }
+    .form-top-icon {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+
+    /*表单中间内容*/
+    .form-middle {
+        height: calc(100vh - 175px);
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
+        padding: 10px 5px 5px;
+        font-size: 12px;
+        border: 1px solid #EFEFEF;
+        border-top: 0px;
+    }
+
+    /*表单按钮*/
+    .form-footer {
+        height: 50px;
+        line-height: 50px;
+        text-align: right;
+        background-color: #FEFEFE;
+        border: 1px solid #EFEFEF;
+        border-top: 0px;
+        padding-right: 10px;
+    }
+}

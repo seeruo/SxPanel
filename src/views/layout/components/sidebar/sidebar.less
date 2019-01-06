@@ -1,0 +1,78 @@
+
+.sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+/* LOGO */
+.sidebar-logo {
+    height: 49px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid @logo-border-color;
+}
+
+.sidebar-logo>img {
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.sidebar-logo>span {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    height: 100%;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: bold;
+    color: @logo-font-color;
+}
+
+/*菜单样式*/
+.el-menu {
+    text-align: left;
+    border-color: @menu-bg-color;
+    background-color: @menu-bg-color!important;
+}
+.el-menu--collapse{
+    width: 54px!important;
+}
+.el-menu-item {
+    height: 50px;
+    line-height: 50px;
+    .fa{
+        font-size: 18px;
+        color: @menu-font-color !important;
+    }
+    .spantext{
+        white-space:nowrap; 
+        padding-left: 15px;
+        color: @menu-font-color !important;
+    }
+}
+.el-menu-item:hover{
+    background-color: @menu-bg-color-active !important;
+    .fa{
+        color: @menu-font-color-active !important;
+    }
+    .spantext{
+        color: @menu-font-color-active !important;
+    }
+}
+.el-menu-item.is-active {
+    background-color: @menu-bg-color-active!important;
+    .fa{
+        color: @menu-font-color-active !important;
+    }
+    .spantext{
+        color: @menu-font-color-active !important;
+    }
+}

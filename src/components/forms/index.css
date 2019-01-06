@@ -1,0 +1,27 @@
+.forms-index .el-dialog__body{
+    padding: 10px ! important;
+}
+.forms-index .el-collapse{
+    /*padding: 0 10px;*/
+    overflow: hidden;
+}
+.forms-index .el-collapse-item,
+.forms-index .el-collapse-item__header{
+    background-color: #f9f9f9 ! important;
+}
+.forms-index .el-collapse-item__header{
+    text-indent: 10px;
+}
+.forms-index .el-collapse-item__wrap {
+    border-top: 1px solid #ebeef5;
+    background-color: #fdfdfd ! important;
+}
+.forms-index .el-scrollbar__wrap{
+    overflow-x: hidden ! important;
+}
+
+.forms-index .dialog-title {
+    line-height: 20px;
+    font-size: 16px;
+    color: #888;
+}

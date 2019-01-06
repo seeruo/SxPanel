@@ -1,0 +1,104 @@
+/*文本颜色类 start*/
+.color-primary {
+  color: #669EE4;
+}
+
+.color-success {
+  color: #67C23A;
+}
+
+.color-waring {
+  color: #E6A23C;
+}
+
+.color-info {
+  color: #909399;
+}
+
+.color-danger {
+  color: #F56C6C;
+}
+
+/*背景颜色类 end*/
+
+/*背景颜色类 start*/
+.bgcolor-primary {
+  background-color: #669EE4;
+}
+
+.bgcolor-success {
+  background-color: #67C23A;
+}
+
+.bgcolor-waring {
+  background-color: #E6A23C;
+}
+
+.bgcolor-info {
+  background-color: #909399;
+}
+
+.bgcolor-danger {
+  background-color: #F56C6C;
+}
+
+/*背景颜色类 end*/
+
+.font12 {
+  font-size: 12px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+
+.button-icon {
+  color: #D4D5DC !important;
+  .font12;
+}
+
+// 输入框样式组:这里主要对不能使用elemnet的input组件的情况下，使用原生input写的样式;
+.input-style {
+  display: inline-block;
+  width: calc(100% - 4px);
+  height: 38px;
+  border-radius: 3px;
+  border: 1px solid @input-border-color;
+  outline: none;
+  text-indent: 5px;
+  letter-spacing: -1px;
+  transition: border .5s;
+  padding: 0px;
+}
+
+.input-medium {
+  .input-style;
+  height: 34px;
+  line-height: 30px;
+}
+
+.input-small {
+  .input-style;
+  height: 30px;
+  line-height: 30px;
+}
+
+.input-mini {
+  .input-style;
+  height: 26px;
+  line-height: 30px;
+}
+.input-style:focus,
+.input-medium:focus,
+.input-small:focus,
+.input-mini:focus
+{
+  border:1px solid @input-border-color-focus;
+}

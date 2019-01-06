@@ -1,0 +1,25 @@
+
+.el-input-group__prepend {
+    width: 20px !important;
+}
+
+.el-card__header {
+    padding: 14px 20px;
+    text-align: left;
+    color: #444;
+}
+
+.el-form{
+    width: 100%!important;
+}
+
+.el-input-group__prepend {
+    padding: 0 10px;
+}
+
+.el-form-item{
+    margin-bottom: 18px;
+}
+.el-card__body{
+    padding-top: 10px!important;
+}

@@ -1,0 +1,87 @@
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/static/images/login_bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-area {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    // background: white;
+}
+
+.header {
+    height: 70px;
+    width: 100vw;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.header>.logo {
+    height: 50px;
+    margin: 10px 10px 10px 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.header>span {
+    display: inline-block;
+    height: 50px;
+    margin: 15px 50px 5px 10px;
+    line-height: 50px;
+    font-size: 20px;
+    color: red;
+}
+
+.header>span>i {
+    font-size: 20px;
+    color: red;
+    padding-right: 10px;
+}
+
+.footer {
+    height: 50px;
+    width: 100vw;
+    background: white;
+    line-height: 50px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-module {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    overflow: hidden;
+}
+
+.txiconfont {
+    color: @login-font-color;
+}
+
+.clearfix span {
+    vertical-align: middle;
+    font-size: 16px;
+    color: #515a6e;
+    font-weight: 700;
+}
+
+.txiconfont {
+    font-size: 20px;
+}
