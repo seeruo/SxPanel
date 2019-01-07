@@ -2,6 +2,8 @@
 
 这是用vue+element写的一套管理系统界面
 
+DEMO: http://sxpanel.codegrids.com
+
 实现了一些特殊性的需求
 1. 数据缓存(区别于单纯的页面缓存)，相同页面可以缓存多份数据
 2. 重新设计了table组件，实现了类似easyui的使用方式
